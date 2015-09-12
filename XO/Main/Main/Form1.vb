@@ -9,13 +9,16 @@ Public Class Form1
     Friend Shared MyInstance As Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Top = 0
-        Me.Left = 0
-        Me.Height = Screen.PrimaryScreen.WorkingArea.Height
-        Me.Width = Screen.PrimaryScreen.WorkingArea.Width
+
+        'Me.Top = 0
+        'Me.Left = 0
+        'Me.Height = Screen.PrimaryScreen.WorkingArea.Height
+        'Me.Width = Screen.PrimaryScreen.WorkingArea.Width
         scoreP1.Text = "0"
         scoreP2.Text = "0"
         Debug.WriteLine("form ", turn.ToString)
+
+        AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\เตรียม.swf"
 
     End Sub
 
@@ -56,9 +59,10 @@ Public Class Form1
 
         turn = check.Check_turn(turn)
         B1.Text = check.Player_T
+        B1.ForeColor = Color.Red
         showTurnplay.Text = showturnplayer & turn
-        B1.Enabled = False
         check.Check_Al()
+        B1.Enabled = False
         Debug.WriteLine("A2 ", turn.ToString)
     End Sub
 
@@ -121,6 +125,10 @@ Public Class Form1
         MyInstance = Me
         check.reset()
         turn = 1
+
+    End Sub
+
+    Private Sub AxShockwaveFlash1_Enter(sender As Object, e As EventArgs) Handles AxShockwaveFlash1.Enter
 
     End Sub
 End Class

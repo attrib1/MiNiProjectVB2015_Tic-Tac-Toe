@@ -16,25 +16,49 @@
     Public Function Check_Al()
         'line horizon X
         If Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.A2.Text = "X" And Form1.MyInstance.A3.Text = "X" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.A2.BackColor = Color.Green
+            Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_X()
 
         ElseIf Form1.MyInstance.B1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.B3.Text = "X" Then
+            Form1.MyInstance.B1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.B3.BackColor = Color.Green
             resultAL_X()
         ElseIf Form1.MyInstance.C1.Text = "X" And Form1.MyInstance.C2.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+            Form1.MyInstance.C1.BackColor = Color.Green
+            Form1.MyInstance.C2.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
 
             'line vertical X
         ElseIf Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.B1.Text = "X" And Form1.MyInstance.C1.Text = "X" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.B1.BackColor = Color.Green
+            Form1.MyInstance.C1.BackColor = Color.Green
             resultAL_X()
         ElseIf Form1.MyInstance.A2.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.C2.Text = "X" Then
+            Form1.MyInstance.A2.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.C2.BackColor = Color.Green
             resultAL_X()
         ElseIf Form1.MyInstance.A3.Text = "X" And Form1.MyInstance.B3.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+            Form1.MyInstance.A3.BackColor = Color.Green
+            Form1.MyInstance.B3.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
 
             'line diagonal X
         ElseIf Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
         ElseIf Form1.MyInstance.C1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.A3.Text = "X" Then
+            Form1.MyInstance.C1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_X()
         End If
 
@@ -44,24 +68,49 @@
     Private Function Check_Al_O()
         'line horizon O
         If Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.A2.Text = "O" And Form1.MyInstance.A3.Text = "O" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.A2.BackColor = Color.Green
+            Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_O()
+
         ElseIf Form1.MyInstance.B1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.B3.Text = "O" Then
+            Form1.MyInstance.B1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.B3.BackColor = Color.Green
             resultAL_O()
         ElseIf Form1.MyInstance.C1.Text = "O" And Form1.MyInstance.C2.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+            Form1.MyInstance.C1.BackColor = Color.Green
+            Form1.MyInstance.C2.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
 
             'line vertical O
         ElseIf Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.B1.Text = "O" And Form1.MyInstance.C1.Text = "O" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.B1.BackColor = Color.Green
+            Form1.MyInstance.C1.BackColor = Color.Green
             resultAL_O()
         ElseIf Form1.MyInstance.A2.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.C2.Text = "O" Then
+            Form1.MyInstance.A2.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.C2.BackColor = Color.Green
             resultAL_O()
         ElseIf Form1.MyInstance.A3.Text = "O" And Form1.MyInstance.B3.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+            Form1.MyInstance.A3.BackColor = Color.Green
+            Form1.MyInstance.B3.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
 
             'line diagonal O
         ElseIf Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+            Form1.MyInstance.A1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
         ElseIf Form1.MyInstance.C1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.A3.Text = "O" Then
+            Form1.MyInstance.C1.BackColor = Color.Green
+            Form1.MyInstance.B2.BackColor = Color.Green
+            Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_O()
         End If
 
@@ -89,13 +138,26 @@
         Form1.MyInstance.C2.Enabled = True
         Form1.MyInstance.C3.Enabled = True
 
+        Form1.MyInstance.A1.BackColor = Color.Transparent
+        Form1.MyInstance.A2.BackColor = Color.Transparent
+        Form1.MyInstance.A3.BackColor = Color.Transparent
+        Form1.MyInstance.B1.BackColor = Color.Transparent
+        Form1.MyInstance.B2.BackColor = Color.Transparent
+        Form1.MyInstance.B3.BackColor = Color.Transparent
+        Form1.MyInstance.C1.BackColor = Color.Transparent
+        Form1.MyInstance.C2.BackColor = Color.Transparent
+        Form1.MyInstance.C3.BackColor = Color.Transparent
+
+
         Form1.MyInstance.showTurnplay.Text = "Player : 1"
         'Form1.MyInstance.scoreP1.Text = "0"
+        play_intro()
 
 
     End Function
     Public Function resultAL_X()
-        MsgBox("ddd")
+        MsgBox("X Win !!!")
+        play_flash()
         Form1.MyInstance.scoreP1.Text += 1
         Form1.MyInstance.A1.Enabled = False
         Form1.MyInstance.A2.Enabled = False
@@ -108,7 +170,7 @@
         Form1.MyInstance.C3.Enabled = False
     End Function
     Public Function resultAL_O()
-        MsgBox("ddd")
+        MsgBox("O Win !!!")
         Form1.MyInstance.scoreP2.Text += 1
         Form1.MyInstance.A1.Enabled = False
         Form1.MyInstance.A2.Enabled = False
@@ -120,4 +182,17 @@
         Form1.MyInstance.C2.Enabled = False
         Form1.MyInstance.C3.Enabled = False
     End Function
+
+    Private Function play_flash()
+
+        Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\สส.swf"
+
+
+
+    End Function
+
+    Private Function play_intro()
+        Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\เตรียม.swf"
+    End Function
+
 End Class
