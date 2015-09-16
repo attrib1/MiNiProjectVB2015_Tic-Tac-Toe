@@ -61,7 +61,6 @@ Partial Class Form1
         Me.GroupBox1.Size = New System.Drawing.Size(200, 171)
         Me.GroupBox1.TabIndex = 9
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "GroupBox1"
         '
         'btn_Reset
         '

@@ -3,6 +3,7 @@
     Public Player_T As String
 
 
+
     Public Function Check_turn(turn As Integer) As Integer
         If turn = 1 Then
             Player_T = "X"
@@ -157,8 +158,14 @@
     End Function
     Public Function resultAL_X()
         MsgBox("X Win !!!")
-        play_flash()
+        'X คือ แดง
         Form1.MyInstance.scoreP1.Text += 1
+        If Val(Form1.MyInstance.scoreP1.Text) = 3 Then
+            play_flash_X_die()
+        Else
+            play_flash_X()
+        End If
+
         Form1.MyInstance.A1.Enabled = False
         Form1.MyInstance.A2.Enabled = False
         Form1.MyInstance.A3.Enabled = False
@@ -169,9 +176,24 @@
         Form1.MyInstance.C2.Enabled = False
         Form1.MyInstance.C3.Enabled = False
     End Function
+
+    Private Sub play_flash_X_die()
+        'Throw New NotImplementedException()
+        reset()
+        Form1.MyInstance.scoreP1.Text = 0
+
+    End Sub
+
     Public Function resultAL_O()
         MsgBox("O Win !!!")
+        ' O คือ น้ำเงิน
         Form1.MyInstance.scoreP2.Text += 1
+        If Val(Form1.MyInstance.scoreP2.Text) = 3 Then
+            play_flash_O_die()
+        Else
+            play_flash_O()
+        End If
+
         Form1.MyInstance.A1.Enabled = False
         Form1.MyInstance.A2.Enabled = False
         Form1.MyInstance.A3.Enabled = False
@@ -183,9 +205,19 @@
         Form1.MyInstance.C3.Enabled = False
     End Function
 
-    Private Function play_flash()
+    Private Sub play_flash_O_die()
+        Throw New NotImplementedException()
+        reset()
+        Form1.MyInstance.scoreP1.Text = 0
+    End Sub
 
-        Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\สส.swf"
+    Private Sub play_flash_O()
+        Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\สส_น้ำเงินต่อยแดง.swf"
+    End Sub
+
+    Private Function play_flash_X()
+
+        Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\สส_น้ำเงินต่อยแดง.swf"
 
 
 
@@ -194,5 +226,6 @@
     Private Function play_intro()
         Form1.MyInstance.AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\เตรียม.swf"
     End Function
+
 
 End Class
