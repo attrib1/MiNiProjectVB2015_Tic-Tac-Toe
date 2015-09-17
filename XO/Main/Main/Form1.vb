@@ -18,7 +18,29 @@ Public Class Form1
         scoreP2.Text = "0"
         Debug.WriteLine("form ", turn.ToString)
 
-        AxShockwaveFlash1.Movie = Application.StartupPath & "\flash\เตรียม.swf"
+        Dim appPath1 As String = My.Application.Info.DirectoryPath & "\flash" & "intro_d.swf"
+        My.Computer.FileSystem.WriteAllBytes(appPath1, My.Resources.intro_d, False)
+
+        Dim appPath2 As String = My.Application.Info.DirectoryPath & "\flash" & "blue_f.swf"
+        My.Computer.FileSystem.WriteAllBytes(appPath2, My.Resources.blue_f, False)
+
+        Dim appPath3 As String = My.Application.Info.DirectoryPath & "\flash" & "red_f.swf"
+        My.Computer.FileSystem.WriteAllBytes(appPath3, My.Resources.red_f, False)
+
+        Dim appPath4 As String = My.Application.Info.DirectoryPath & "\flash" & "blue_die.swf"
+        My.Computer.FileSystem.WriteAllBytes(appPath4, My.Resources.blue_die, False)
+
+        Dim appPath5 As String = My.Application.Info.DirectoryPath & "\flash" & "red_die.swf"
+        My.Computer.FileSystem.WriteAllBytes(appPath5, My.Resources.red_die, False)
+
+        AxShockwaveFlash1.LoadMovie(0, My.Application.Info.DirectoryPath & "\flash" & "intro_d.swf")
+        AxShockwaveFlash1.Play()
+
+        'AxShockwaveFlash1.Movie = Application.StartupPath & (appPath,My.Resources.intro_d , False)
+
+
+
+
 
     End Sub
 
@@ -59,7 +81,6 @@ Public Class Form1
 
         turn = check.Check_turn(turn)
         B1.Text = check.Player_T
-        B1.ForeColor = Color.Red
         showTurnplay.Text = showturnplayer & turn
         check.Check_Al()
         B1.Enabled = False
@@ -128,7 +149,14 @@ Public Class Form1
 
     End Sub
 
-    Private Sub AxShockwaveFlash1_Enter(sender As Object, e As EventArgs) Handles AxShockwaveFlash1.Enter
+    Private Sub AxShockwaveFlash1_Enter(sender As Object, e As EventArgs)
 
     End Sub
+
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs)
+        AxShockwaveFlash1.Visible = False
+    End Sub
+
+
 End Class

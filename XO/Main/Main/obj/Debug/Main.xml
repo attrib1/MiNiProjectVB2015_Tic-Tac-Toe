@@ -22,5 +22,30 @@ Main
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Main.My.Resources.Resources.blue_die">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Main.My.Resources.Resources.blue_f">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Main.My.Resources.Resources.intro_d">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Main.My.Resources.Resources.red_die">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Main.My.Resources.Resources.red_f">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
 </members>
 </doc>

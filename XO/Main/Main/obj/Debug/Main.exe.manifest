@@ -73,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FVWaYrM4yqUxBJUU5iljokfuIQI=</dsig:DigestValue>
+        <dsig:DigestValue>ddPAF9jONbDNUU0QwO0o85EJ8Xs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -92,7 +92,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>uMfOfxXsc4TzP8Wr+7pwOwoSefk=</dsig:DigestValue>
+      <dsig:DigestValue>MjxmsbUQPLMojxBDDC0RUuuOM0s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Main.xml" size="1374">

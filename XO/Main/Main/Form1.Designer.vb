@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -31,7 +31,6 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.showTurnplay = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.AxShockwaveFlash1 = New AxShockwaveFlashObjects.AxShockwaveFlash()
         Me.B3 = New System.Windows.Forms.Button()
         Me.C1 = New System.Windows.Forms.Button()
         Me.B2 = New System.Windows.Forms.Button()
@@ -42,9 +41,10 @@ Partial Class Form1
         Me.A2 = New System.Windows.Forms.Button()
         Me.A1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.AxShockwaveFlash1 = New AxShockwaveFlashObjects.AxShockwaveFlash()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -139,15 +139,6 @@ Partial Class Form1
         Me.Label1.Text = "Turn"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'AxShockwaveFlash1
-        '
-        Me.AxShockwaveFlash1.Enabled = True
-        Me.AxShockwaveFlash1.Location = New System.Drawing.Point(149, 6)
-        Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
-        Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxShockwaveFlash1.Size = New System.Drawing.Size(500, 350)
-        Me.AxShockwaveFlash1.TabIndex = 10
-        '
         'B3
         '
         Me.B3.Location = New System.Drawing.Point(238, 95)
@@ -239,19 +230,28 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(387, 245)
         Me.Panel1.TabIndex = 12
         '
+        'AxShockwaveFlash1
+        '
+        Me.AxShockwaveFlash1.Enabled = True
+        Me.AxShockwaveFlash1.Location = New System.Drawing.Point(118, 12)
+        Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
+        Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxShockwaveFlash1.Size = New System.Drawing.Size(500, 350)
+        Me.AxShockwaveFlash1.TabIndex = 14
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.MenuBar
         Me.ClientSize = New System.Drawing.Size(875, 679)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.AxShockwaveFlash1)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
         Me.GroupBox1.ResumeLayout(False)
-        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        CType(Me.AxShockwaveFlash1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -263,7 +263,6 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents btn_Reset As Button
-    Friend WithEvents AxShockwaveFlash1 As AxShockwaveFlashObjects.AxShockwaveFlash
     Friend WithEvents B3 As Button
     Friend WithEvents C1 As Button
     Friend WithEvents B2 As Button
@@ -274,4 +273,5 @@ Partial Class Form1
     Friend WithEvents A2 As Button
     Friend WithEvents A1 As Button
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents AxShockwaveFlash1 As AxShockwaveFlashObjects.AxShockwaveFlash
 End Class
