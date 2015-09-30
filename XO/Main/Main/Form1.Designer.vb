@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btn_Reset = New System.Windows.Forms.Button()
         Me.scoreP2 = New System.Windows.Forms.Label()
@@ -126,7 +125,7 @@ Partial Class Form1
         Me.showTurnplay.Name = "showTurnplay"
         Me.showTurnplay.Size = New System.Drawing.Size(132, 36)
         Me.showTurnplay.TabIndex = 1
-        Me.showTurnplay.Text = "Player : 1"
+        Me.showTurnplay.Text = "Player :  หมา"
         Me.showTurnplay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label1
@@ -235,7 +234,6 @@ Partial Class Form1
         Me.AxShockwaveFlash1.Enabled = True
         Me.AxShockwaveFlash1.Location = New System.Drawing.Point(118, 12)
         Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
-        Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
         Me.AxShockwaveFlash1.Size = New System.Drawing.Size(500, 350)
         Me.AxShockwaveFlash1.TabIndex = 14
         '

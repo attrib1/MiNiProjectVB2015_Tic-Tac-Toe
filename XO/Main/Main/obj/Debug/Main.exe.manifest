@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Main.exe" version="1.0.0.22" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Main.exe" version="1.0.0.23" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Main" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,38 +42,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.ShockwaveFlashObjects.dll" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.ShockwaveFlashObjects.dll" size="18432">
       <assemblyIdentity name="AxInterop.ShockwaveFlashObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ONBa1BIpKV8O8nTLESqwV60DzH0=</dsig:DigestValue>
+        <dsig:DigestValue>HSXa2teBERCMfWscWESMOecQ1iE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ShockwaveFlashObjects.dll" size="22528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.ShockwaveFlashObjects.dll" size="23040">
       <assemblyIdentity name="Interop.ShockwaveFlashObjects" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>QSM1Co7TlnVHzy9gCjz74B/vYqE=</dsig:DigestValue>
+        <dsig:DigestValue>CAZkTW/cBqk4pwEqcocfob3gJ5s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Main.exe" size="49152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Main.exe" size="60928">
       <assemblyIdentity name="Main" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ddPAF9jONbDNUU0QwO0o85EJ8Xs=</dsig:DigestValue>
+        <dsig:DigestValue>Vul3+ZmbxiQKLK2JJBiMtHHOlb0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,22 +86,22 @@
       <dsig:DigestValue>zmtMKrAEuvsQh2jJFtlCNruBIWE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Main.pdb" size="48640">
+  <file name="Main.pdb" size="52736">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>MjxmsbUQPLMojxBDDC0RUuuOM0s=</dsig:DigestValue>
+      <dsig:DigestValue>/aHZDf9ZNSXoHGS4WvkqX6XDwKs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Main.xml" size="1374">
+  <file name="Main.xml" size="1668">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>OJ5vkD7mGj736PuQe369OPi5xzk=</dsig:DigestValue>
+      <dsig:DigestValue>vV9OPgS13edbk3MmEavpSciSgvA=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

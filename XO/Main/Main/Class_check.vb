@@ -1,6 +1,12 @@
 ﻿Public Class Class_check
 
+    Public A1, A2, A3 As String
+    Public B1, B2, B3 As String
+    Public C1, C2, C3 As String
+    Public asd As String
+
     Public Player_T As String
+
 
 
 
@@ -17,47 +23,47 @@
 
     Public Function Check_Al()
         'line horizon X
-        If Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.A2.Text = "X" And Form1.MyInstance.A3.Text = "X" Then
+        If A1 = "X" And A2 = "X" And A3 = "X" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.A2.BackColor = Color.Green
             Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_X()
 
-        ElseIf Form1.MyInstance.B1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.B3.Text = "X" Then
+        ElseIf B1 = "X" And B2 = "X" And B3 = "X" Then
             Form1.MyInstance.B1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.B3.BackColor = Color.Green
             resultAL_X()
-        ElseIf Form1.MyInstance.C1.Text = "X" And Form1.MyInstance.C2.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+        ElseIf C1 = "X" And C2 = "X" And C3 = "X" Then
             Form1.MyInstance.C1.BackColor = Color.Green
             Form1.MyInstance.C2.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
 
             'line vertical X
-        ElseIf Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.B1.Text = "X" And Form1.MyInstance.C1.Text = "X" Then
+        ElseIf A1 = "X" And B1 = "X" And C1 = "X" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.B1.BackColor = Color.Green
             Form1.MyInstance.C1.BackColor = Color.Green
             resultAL_X()
-        ElseIf Form1.MyInstance.A2.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.C2.Text = "X" Then
+        ElseIf A2 = "X" And B2 = "X" And C2 = "X" Then
             Form1.MyInstance.A2.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.C2.BackColor = Color.Green
             resultAL_X()
-        ElseIf Form1.MyInstance.A3.Text = "X" And Form1.MyInstance.B3.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+        ElseIf A3 = "X" And B3 = "X" And C3 = "X" Then
             Form1.MyInstance.A3.BackColor = Color.Green
             Form1.MyInstance.B3.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
 
             'line diagonal X
-        ElseIf Form1.MyInstance.A1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.C3.Text = "X" Then
+        ElseIf A1 = "X" And B2 = "X" And C3 = "X" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_X()
-        ElseIf Form1.MyInstance.C1.Text = "X" And Form1.MyInstance.B2.Text = "X" And Form1.MyInstance.A3.Text = "X" Then
+        ElseIf C1 = "X" And B2 = "X" And A3 = "X" Then
             Form1.MyInstance.C1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.A3.BackColor = Color.Green
@@ -69,47 +75,47 @@
     End Function
     Private Function Check_Al_O()
         'line horizon O
-        If Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.A2.Text = "O" And Form1.MyInstance.A3.Text = "O" Then
+        If A1 = "O" And A2 = "O" And A3 = "O" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.A2.BackColor = Color.Green
             Form1.MyInstance.A3.BackColor = Color.Green
             resultAL_O()
 
-        ElseIf Form1.MyInstance.B1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.B3.Text = "O" Then
+        ElseIf B1 = "O" And B2 = "O" And B3 = "O" Then
             Form1.MyInstance.B1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.B3.BackColor = Color.Green
             resultAL_O()
-        ElseIf Form1.MyInstance.C1.Text = "O" And Form1.MyInstance.C2.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+        ElseIf C1 = "O" And C2 = "O" And C3 = "O" Then
             Form1.MyInstance.C1.BackColor = Color.Green
             Form1.MyInstance.C2.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
 
             'line vertical O
-        ElseIf Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.B1.Text = "O" And Form1.MyInstance.C1.Text = "O" Then
+        ElseIf A1 = "O" And B1 = "O" And C1 = "O" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.B1.BackColor = Color.Green
             Form1.MyInstance.C1.BackColor = Color.Green
             resultAL_O()
-        ElseIf Form1.MyInstance.A2.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.C2.Text = "O" Then
+        ElseIf A2 = "O" And B2 = "O" And C2 = "O" Then
             Form1.MyInstance.A2.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.C2.BackColor = Color.Green
             resultAL_O()
-        ElseIf Form1.MyInstance.A3.Text = "O" And Form1.MyInstance.B3.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+        ElseIf A3 = "O" And B3 = "O" And C3 = "O" Then
             Form1.MyInstance.A3.BackColor = Color.Green
             Form1.MyInstance.B3.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
 
             'line diagonal O
-        ElseIf Form1.MyInstance.A1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.C3.Text = "O" Then
+        ElseIf A1 = "O" And B2 = "O" And C3 = "O" Then
             Form1.MyInstance.A1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.C3.BackColor = Color.Green
             resultAL_O()
-        ElseIf Form1.MyInstance.C1.Text = "O" And Form1.MyInstance.B2.Text = "O" And Form1.MyInstance.A3.Text = "O" Then
+        ElseIf C1 = "O" And B2 = "O" And A3 = "O" Then
             Form1.MyInstance.C1.BackColor = Color.Green
             Form1.MyInstance.B2.BackColor = Color.Green
             Form1.MyInstance.A3.BackColor = Color.Green
@@ -131,6 +137,9 @@
         Form1.MyInstance.C2.Text = ""
         Form1.MyInstance.C3.Text = ""
 
+
+        ' Form1.MyInstance.A1.BackgroundImage = Me.none
+
         Form1.MyInstance.A1.Enabled = True
         Form1.MyInstance.A2.Enabled = True
         Form1.MyInstance.A3.Enabled = True
@@ -140,6 +149,15 @@
         Form1.MyInstance.C1.Enabled = True
         Form1.MyInstance.C2.Enabled = True
         Form1.MyInstance.C3.Enabled = True
+        Form1.MyInstance.A1.BackgroundImage = Nothing
+        Form1.MyInstance.A2.BackgroundImage = Nothing
+        Form1.MyInstance.A3.BackgroundImage = Nothing
+        Form1.MyInstance.B1.BackgroundImage = Nothing
+        Form1.MyInstance.B2.BackgroundImage = Nothing
+        Form1.MyInstance.B3.BackgroundImage = Nothing
+        Form1.MyInstance.C1.BackgroundImage = Nothing
+        Form1.MyInstance.C2.BackgroundImage = Nothing
+        Form1.MyInstance.C3.BackgroundImage = Nothing
 
         Form1.MyInstance.A1.BackColor = Color.Transparent
         Form1.MyInstance.A2.BackColor = Color.Transparent
@@ -151,6 +169,15 @@
         Form1.MyInstance.C2.BackColor = Color.Transparent
         Form1.MyInstance.C3.BackColor = Color.Transparent
 
+        A1 = ""
+        A2 = ""
+        A3 = ""
+        B1 = ""
+        B2 = ""
+        B3 = ""
+        C1 = ""
+        C2 = ""
+        C3 = ""
 
         Form1.MyInstance.showTurnplay.Text = "Player : 1"
         'Form1.MyInstance.scoreP1.Text = "0"

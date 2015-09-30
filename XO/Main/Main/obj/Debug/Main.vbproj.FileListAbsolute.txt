@@ -25,6 +25,12 @@ D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Interop.Shockwave
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.vbproj.ResolveComReference.cache
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.vbprojResolveAssemblyReference.cache
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\blue_die.swf
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\blue_f.swf
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\intro_d.swf
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\red_die.swf
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\red_f.swf
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\เตรียม.swf
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\Main.exe.config
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\Main.exe.manifest
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\Main.application
@@ -44,10 +50,3 @@ D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Ma
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.exe
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.xml
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.pdb
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.vbprojResolveAssemblyReference.cache
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\blue_die.swf
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\blue_f.swf
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\red_die.swf
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\red_f.swf
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\เตรียม.swf
-D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\bin\Debug\flash\intro_d.swf

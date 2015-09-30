@@ -47,8 +47,24 @@ Public Class Form1
     Private Sub A1_Click(sender As Object, e As EventArgs) Handles A1.Click
         MyInstance = Me
         turn = check.Check_turn(turn)
-        A1.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+        If turn = 2 Then
+            A1.BackgroundImage = My.Resources.x
+            A1.BackgroundImageLayout = ImageLayout.Center
+            check.A1 = check.Player_T
+
+        Else
+            A1.BackgroundImageLayout = ImageLayout.Center
+            A1.BackgroundImage = My.Resources.o
+            check.A1 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
+
         A1.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A1 ", turn.ToString)
@@ -57,8 +73,25 @@ Public Class Form1
     Private Sub A2_Click(sender As Object, e As EventArgs) Handles A2.Click
         MyInstance = Me
         turn = check.Check_turn(turn)
-        A2.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            A2.BackgroundImage = My.Resources.x
+            A2.BackgroundImageLayout = ImageLayout.Center
+            check.A2 = check.Player_T
+
+        Else
+            A2.BackgroundImageLayout = ImageLayout.Center
+            A2.BackgroundImage = My.Resources.o
+            check.A2 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
+
         A2.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -67,10 +100,25 @@ Public Class Form1
 
     Private Sub A3_Click(sender As Object, e As EventArgs) Handles A3.Click
         MyInstance = Me
-
         turn = check.Check_turn(turn)
-        A3.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            A3.BackgroundImage = My.Resources.x
+            A3.BackgroundImageLayout = ImageLayout.Center
+            check.A3 = check.Player_T
+
+        Else
+            A3.BackgroundImageLayout = ImageLayout.Center
+            A3.BackgroundImage = My.Resources.o
+            check.A3 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         A3.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -78,10 +126,25 @@ Public Class Form1
 
     Private Sub B1_Click(sender As Object, e As EventArgs) Handles B1.Click
         MyInstance = Me
-
         turn = check.Check_turn(turn)
-        B1.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            B1.BackgroundImage = My.Resources.x
+            B1.BackgroundImageLayout = ImageLayout.Center
+            check.B1 = check.Player_T
+
+        Else
+            B1.BackgroundImageLayout = ImageLayout.Center
+            B1.BackgroundImage = My.Resources.o
+            check.B1 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         check.Check_Al()
         B1.Enabled = False
         Debug.WriteLine("A2 ", turn.ToString)
@@ -91,8 +154,24 @@ Public Class Form1
         MyInstance = Me
 
         turn = check.Check_turn(turn)
-        B2.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            B2.BackgroundImage = My.Resources.x
+            B2.BackgroundImageLayout = ImageLayout.Center
+            check.B2 = check.Player_T
+
+        Else
+            B2.BackgroundImageLayout = ImageLayout.Center
+            B2.BackgroundImage = My.Resources.o
+            check.B2 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         B2.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -102,8 +181,24 @@ Public Class Form1
         MyInstance = Me
 
         turn = check.Check_turn(turn)
-        B3.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            B3.BackgroundImage = My.Resources.x
+            B3.BackgroundImageLayout = ImageLayout.Center
+            check.B3 = check.Player_T
+
+        Else
+            B3.BackgroundImageLayout = ImageLayout.Center
+            B3.BackgroundImage = My.Resources.o
+            check.B3 = check.Player_T
+
+        End If
+
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         B3.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -113,8 +208,22 @@ Public Class Form1
         MyInstance = Me
 
         turn = check.Check_turn(turn)
-        C1.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+        If turn = 2 Then
+            C1.BackgroundImage = My.Resources.x
+            C1.BackgroundImageLayout = ImageLayout.Center
+            check.C1 = check.Player_T
+
+        Else
+            C1.BackgroundImageLayout = ImageLayout.Center
+            C1.BackgroundImage = My.Resources.o
+            check.C1 = check.Player_T
+
+        End If
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         C1.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -124,8 +233,23 @@ Public Class Form1
         MyInstance = Me
 
         turn = check.Check_turn(turn)
-        C2.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            C2.BackgroundImage = My.Resources.x
+            C2.BackgroundImageLayout = ImageLayout.Center
+            check.C2 = check.Player_T
+
+        Else
+            C2.BackgroundImageLayout = ImageLayout.Center
+            C2.BackgroundImage = My.Resources.o
+            check.C2 = check.Player_T
+
+        End If
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         C2.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
@@ -135,8 +259,23 @@ Public Class Form1
         MyInstance = Me
 
         turn = check.Check_turn(turn)
-        C3.Text = check.Player_T
-        showTurnplay.Text = showturnplayer & turn
+
+        If turn = 2 Then
+            C3.BackgroundImage = My.Resources.x
+            C3.BackgroundImageLayout = ImageLayout.Center
+            check.C3 = check.Player_T
+
+        Else
+            C3.BackgroundImageLayout = ImageLayout.Center
+            C3.BackgroundImage = My.Resources.o
+            check.C3 = check.Player_T
+
+        End If
+        If turn = 1 Then
+            showTurnplay.Text = showturnplayer & "หมา"
+        Else
+            showTurnplay.Text = showturnplayer & "แมว"
+        End If
         C3.Enabled = False
         check.Check_Al()
         Debug.WriteLine("A2 ", turn.ToString)
