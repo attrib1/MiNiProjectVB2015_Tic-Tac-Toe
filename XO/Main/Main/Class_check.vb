@@ -187,7 +187,7 @@
     End Function
     Public Function resultAL_X()
         Try
-            MsgBox("X Win !!!")
+            MsgBox("Dog Win !!!")
             'X คือ แดง
             Form1.MyInstance.scoreP1.Text += 1
             If Val(Form1.MyInstance.scoreP1.Text) = 3 Then
@@ -217,7 +217,7 @@
 
 
     Public Function resultAL_O()
-        MsgBox("O Win !!!")
+        MsgBox("Cat Win !!!")
         ' O คือ น้ำเงิน
         Form1.MyInstance.scoreP2.Text += 1
         If Val(Form1.MyInstance.scoreP2.Text) = 3 Then

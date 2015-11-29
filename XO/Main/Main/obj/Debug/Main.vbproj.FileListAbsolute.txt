@@ -50,3 +50,4 @@ D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Ma
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.exe
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.xml
 D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.pdb
+D:\VB2015\MiNiProjectVB2015_Tic-Tac-Toe\MiNiProjectVB2015_Tic-Tac-Toe\XO\Main\Main\obj\Debug\Main.vbprojResolveAssemblyReference.cache
